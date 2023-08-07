@@ -4,4 +4,12 @@ The overarching objective entails the development and realization of an efficaci
 
 It is also a modified version of [the final project](https://www.coursera.org/learn/motion-planning-self-driving-cars).
 
+
+# Implementation
+In separate terminals:
+```
+opt/CarlaSimulator$ ./CarlaUE4.sh /Game/Maps/Course4 -windowed -carla-server -benchmark -fps=30
+/opt/CarlaSimulator/PythonClient/Planning_YcK$ python3.6 module_7.py
+```
+
 ![TP](https://github.com/Yigit-Kuyu/CARLA_Trajectory_Planning/blob/main/TrajectoryPlanning.PNG)
